@@ -14,6 +14,7 @@ have been transformed into their full names("Accelerometer","Body","Gyroscope","
 
 
 Variable in DataSet:
+
  [1] "subject"                                           
  [2] "activity"                                          
  [3] "TimesBodyAccelerometer-mean()-X"                   
