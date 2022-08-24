@@ -83,5 +83,6 @@ GroupedDataSet <- group_by(DataSet, subject, activity)
 #Creating the desire data set
 DataSet2 <- summarise(GroupedDataSet,across(where(is.numeric),~mean(.x, na.rm=TRUE)))
 
-
+#Creating the txt file from DataSet2
+write.table(DataSet2,"FinalData.txt",row.name=FALSE)
 
