@@ -1,5 +1,3 @@
-a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data
-
 By run_analysis.R, two different data set produced are stored as "DataSet" and "DataSet2"
 
 
